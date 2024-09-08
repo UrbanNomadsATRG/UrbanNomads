@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ladakh - Urban Nomads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: navy;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-container a {
+            margin: 20px;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .image-container img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .image-container a:hover img {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: navy;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explore Ladakh Packages</h1>
+    </header>
+
+    <div class="content">
+        <p>Choose from our exclusive Ladakh packages:</p>
+
+        <div class="image-container">
+            <!-- Regular Ladakh -->
+            <a href="regular-ladakh.html">
+                <img src="images/regular-ladakh.jpg" alt="Regular Ladakh Tour">
+                <p>Regular Ladakh</p>
+            </a>
+
+            <!-- Extended Ladakh -->
+            <a href="extended-ladakh.html">
+                <img src="images/extended-ladakh.jpg" alt="Extended Ladakh Tour">
+                <p>Extended Ladakh</p>
+            </a>
+
+            <!-- Zanskar Ladakh -->
+            <a href="zanskar-ladakh.html">
+                <img src="images/zanskar-ladakh.jpg" alt="Zanskar Ladakh Tour">
+                <p>Zanskar Ladakh</p>
+            </a>
+
+            <!-- Customized Ladakh -->
+            <a href="customized-ladakh.html">
+                <img src="images/customized-ladakh.jpg" alt="Customized Ladakh Tour">
+                <p>Customized Ladakh</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Urban Nomads | <a href="famous-destinations.html">Back to Famous Destinations</a></p>
+    </footer>
+
+</body>
+</html>
